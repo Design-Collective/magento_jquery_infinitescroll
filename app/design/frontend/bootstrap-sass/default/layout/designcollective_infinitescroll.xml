@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<layout>
+	<infinitescroll_ajax_index>
+	     <block type="infinitescroll/loader" name="root" template="path/loader.phtml" />
+	</infinitescroll_ajax_index>
+</layout>

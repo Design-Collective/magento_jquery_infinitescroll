@@ -8,7 +8,7 @@
     <global>
         <blocks>
             <desingcollectiveinfinitescroll>
-                <class>DesignCollective_InfiniteScroll_Block</class>
+                <class>DesignCollective_InfiniteScroll_Loader</class>
             </desingcollectiveinfinitescroll>
         </blocks>
     </global>
@@ -20,6 +20,15 @@
                 </desingcollectiveinfinitescroll>
             </updates>
         </layout>
+        <routers>
+            <designcollectiveinfinitescroll>
+                <use>standard</use>
+                <args>
+                 <module>DesignCollective_InfiniteScroll</module>
+                 <frontName>loadproducts</frontName>
+              </args>
+            </designcollectiveinfinitescroll>
+        </routers>
     </frontend>
     <default>
         <desingcollectiveinfinitescroll>
