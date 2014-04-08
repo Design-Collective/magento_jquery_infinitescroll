@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/*
+ * DesignCollective InfiniteScroll Magento Extension
+ *
+ * NOTICE OF LICENSE
+ *
+ * @category   DesignCollective
+ * @package    DesignCollective_Infinitescroll
+ * @copyright  Copyright (c) 2014 Design Collective (http://designcollective.io)
+ * 
+ * @author     Klemen Novak (klemen@designcollective.io)
+ * @link       http://www.designcollective.io
+ */
+-->
+<config>
+    <modules>
+        <DesignCollective_InfiniteScroll>
+            <active>true</active>
+            <codePool>local</codePool>
+        </DesignCollective_InfiniteScroll>
+    </modules>
+</config>

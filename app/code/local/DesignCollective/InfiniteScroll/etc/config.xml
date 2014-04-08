@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <DesignCollective_InfiniteScroll>
+            <version>0.1.0</version>
+        </DesignCollective_InfiniteScroll>
+    </modules>
+    <global>
+        <blocks>
+            <desingcollectiveinfinitescroll>
+                <class>DesignCollective_InfiniteScroll_Block</class>
+            </desingcollectiveinfinitescroll>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <desingcollectiveinfinitescroll>
+                    <file>designcollective_infinitescroll.xml</file>
+                </desingcollectiveinfinitescroll>
+            </updates>
+        </layout>
+    </frontend>
+    <default>
+        <desingcollectiveinfinitescroll>
+            <general>
+                <enabled>1</enabled>
+            </general>
+            <instances>
+            </instances>
+            <selectors></selectors>
+            <design>
+                <loading_img>http://www.infinite-scroll.com/loading.gif</loading_img>
+                <loading_text><![CDATA[<em>Loading...</em>]]></loading_text>
+                <hide_pagination>1</hide_pagination>
+                <extra_scroll_px>150</extra_scroll_px>
+                <load_more_text>Load more products</load_more_text>
+            </design>
+        </desingcollectiveinfinitescroll>
+    </default>
+</config>
